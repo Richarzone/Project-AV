@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a80525f94d46d6439367e2eee92d6a7, type: 3}
+  m_Name: Machine Gun
+  m_EditorClassIdentifier: 
+  weaponType: 0
+  rateOfFire: 13
+  reloadTime: 3
+  ammo: 100
+  shotsPerClick: 0
+  spread: 3
+  spreadXMultiplier: 1
+  spreadYMultiplier: 1
+  spreadZMultiplier: 1
+  projectile: {fileID: 9105868527069380802, guid: ba682c8b2f81e234db40f03f3ed2db92,
+    type: 3}
+  projectileVelocity: 100
+  useGravity: 0
+  crosshair: {fileID: 21300000, guid: 8b0d5d8e417e1ad48a145b1348bf821f, type: 3}
+  material: {fileID: 2100000, guid: d5d905b072a0fb4439d9700e755048b9, type: 2}
+  size: 4
+  weaponSound:
+  - {fileID: 8300000, guid: 7c316b47bfb14104ebe65b5e31b7699b, type: 3}
+  - {fileID: 8300000, guid: 4e30dfb81551a38489093363c1e23244, type: 3}
+  - {fileID: 8300000, guid: df3f7b0f5c01c1442a46e7fa3944ce81, type: 3}
+  - {fileID: 8300000, guid: cb60dd53a085b4140b5665e9dc60248f, type: 3}
+  reloadSound:
+  - {fileID: 8300000, guid: b8cee873f8e548b4d8b7611694f3b8c4, type: 3}
+  upperVolume: 0.6
+  lowerVolume: 0.5
+  upperPitch: 0.9
+  lowerPitch: 1.1

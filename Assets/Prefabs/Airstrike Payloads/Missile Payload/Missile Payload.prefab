@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6470899619525381403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543936886230942194}
+  - component: {fileID: 6087988627871750812}
+  m_Layer: 0
+  m_Name: Missile Payload
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1543936886230942194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6470899619525381403}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6087988627871750812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6470899619525381403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3620e5dcceccb4d8069a90a9428742, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indicator: {fileID: 2278706990048207575, guid: 455d7c7a2ee897146afcd13fbd3357a9,
+    type: 3}
+  aOE: 20
+  indicatorDuration: 4
+  fireIndicatorDuration: 0.25
+  spawnMinDelay: 0
+  spawnMaxDelay: 0.5
+  projectile: {fileID: 8745806487440838268, guid: 66515ac2cad3ce545b8996ed5bcedd0c,
+    type: 3}
+  payloadCount: 1
+  volleyCount: 1
+  projectileSpeed: 130
+  payloadSpread: 0
+  delayBetweenShots: 0.1
+  delayBetweenVolleys: 0
+  objectsToPool: 1
+  firePointPosition: {x: 0, y: 90, z: 35}
